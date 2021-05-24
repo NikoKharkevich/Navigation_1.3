@@ -11,7 +11,7 @@
         <!--Feed View Controller-->
         <scene sceneID="8Yt-px-48d">
             <objects>
-                <viewController id="gMr-6e-aUu" customClass="FeedViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gMr-6e-aUu" customClass="FeedViewController" customModule="Navigation_1_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aMo-rF-Isl">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
         <!--Post View Controller-->
         <scene sceneID="2FB-I7-90e">
             <objects>
-                <viewController title="Post View Controller" id="fvc-e2-0h3" customClass="PostViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Post View Controller" id="fvc-e2-0h3" customClass="PostViewController" customModule="Navigation_1_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zXV-mY-bLY">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +51,7 @@
                         <color key="backgroundColor" red="0.92941176470588238" green="0.95294117647058818" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Some Post" id="cZF-wJ-syU">
-                        <barButtonItem key="rightBarButtonItem" image="info" catalog="system" id="cv4-C7-Qt9">
+                        <barButtonItem key="rightBarButtonItem" image="delete.right" catalog="system" id="cv4-C7-Qt9">
                             <connections>
                                 <segue destination="547-6I-s5e" kind="modal" id="iCA-Qe-1Qw"/>
                             </connections>
@@ -62,26 +62,10 @@
             </objects>
             <point key="canvasLocation" x="2063" y="-572"/>
         </scene>
-        <!--Alert View Controller-->
-        <scene sceneID="Txu-4S-eot">
-            <objects>
-                <viewController id="UvZ-lj-UOy" customClass="UIAlertViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iJG-9G-Hrq">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="tNP-PW-L9h"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="D4q-fx-tzG"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TGF-7o-AKe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3648" y="-572"/>
-        </scene>
         <!--Info View Controller-->
         <scene sceneID="U6h-rV-FEL">
             <objects>
-                <viewController id="547-6I-s5e" customClass="InfoViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="547-6I-s5e" customClass="InfoViewController" customModule="Navigation_1_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="24T-Cl-laq">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,7 +75,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go To Alert"/>
                                 <connections>
-                                    <segue destination="UvZ-lj-UOy" kind="show" id="cQ7-Pu-BXO"/>
+                                    <action selector="showAlert:" destination="547-6I-s5e" eventType="touchUpInside" id="o0J-LE-fUw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -142,7 +126,7 @@
         <!--Profile View Controller-->
         <scene sceneID="2ey-wJ-e47">
             <objects>
-                <viewController id="UQr-M5-wLM" customClass="ProfileViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UQr-M5-wLM" customClass="ProfileViewController" customModule="Navigation_1_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CF2-FQ-tZ2">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,7 +158,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="info" catalog="system" width="93" height="128"/>
+        <image name="delete.right" catalog="system" width="128" height="104"/>
         <image name="newspaper.fill" catalog="system" width="128" height="111"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">

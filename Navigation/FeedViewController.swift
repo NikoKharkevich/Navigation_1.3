@@ -12,11 +12,9 @@ struct Post {
 }
 
 class FeedViewController: ViewController {
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard segue.identifier == "feed-post" else { return }
-        guard let vc = segue.destination as? PostViewController else { return }
-        vc.title = somePost.title
-    }
+    
+    let somePost: Post = Post(title: "Пост")
+    
     @IBOutlet weak var somePostButton: UIButton!
     
     override func viewDidLoad() {
@@ -24,7 +22,12 @@ class FeedViewController: ViewController {
         somePostButton.setTitle(somePost.title, for: UIControl.State.normal)
     }
     
-    var somePost = Post()
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier == "post" else { return }
+        guard let postViewController = segue.destination as? PostViewController else { return }
+        postViewController.post = somePost
+    }
+
 }
 
 

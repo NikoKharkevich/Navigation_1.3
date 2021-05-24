@@ -7,9 +7,12 @@
 
 import UIKit
 
-class PostViewController: ViewController {
-    override func viewDidLoad() {
-        <#code#>
-    }
+class PostViewController: UIViewController {
     
+    var post: Post?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        title = post?.title
+    }
 }
