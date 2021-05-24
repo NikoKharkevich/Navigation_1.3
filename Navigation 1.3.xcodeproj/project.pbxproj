@@ -17,7 +17,6 @@
 		C007D6C62651036C007A5E15 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007D6C52651036C007A5E15 /* ProfileViewController.swift */; };
 		C007D6C826510C93007A5E15 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007D6C726510C93007A5E15 /* PostViewController.swift */; };
 		C007D6CA26512726007A5E15 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007D6C926512726007A5E15 /* InfoViewController.swift */; };
-		C007D6CC26513B7B007A5E15 /* UIAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007D6CB26513B7B007A5E15 /* UIAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		C007D6C52651036C007A5E15 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C007D6C726510C93007A5E15 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		C007D6C926512726007A5E15 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		C007D6CB26513B7B007A5E15 /* UIAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +71,6 @@
 				C007D6C32651032A007A5E15 /* FeedViewController.swift */,
 				C007D6C726510C93007A5E15 /* PostViewController.swift */,
 				C007D6C926512726007A5E15 /* InfoViewController.swift */,
-				C007D6CB26513B7B007A5E15 /* UIAlertViewController.swift */,
 				C007D6B52650F790007A5E15 /* Main.storyboard */,
 				C007D6B82650F791007A5E15 /* Assets.xcassets */,
 				C007D6BA2650F791007A5E15 /* LaunchScreen.storyboard */,
@@ -155,7 +152,6 @@
 				C007D6C826510C93007A5E15 /* PostViewController.swift in Sources */,
 				C007D6B42650F790007A5E15 /* ViewController.swift in Sources */,
 				C007D6B02650F790007A5E15 /* AppDelegate.swift in Sources */,
-				C007D6CC26513B7B007A5E15 /* UIAlertViewController.swift in Sources */,
 				C007D6CA26512726007A5E15 /* InfoViewController.swift in Sources */,
 				C007D6C62651036C007A5E15 /* ProfileViewController.swift in Sources */,
 				C007D6C42651032A007A5E15 /* FeedViewController.swift in Sources */,
