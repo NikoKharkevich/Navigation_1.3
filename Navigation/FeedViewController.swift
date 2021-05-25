@@ -23,7 +23,7 @@ class FeedViewController: ViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard segue.identifier == "post" else { return }
+        guard segue.identifier == "feed-post" else { return }
         guard let postViewController = segue.destination as? PostViewController else { return }
         postViewController.post = somePost
     }
